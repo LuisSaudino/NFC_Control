@@ -1,0 +1,55 @@
+
+        body {
+            background-color: #6b6b6a;
+        }
+        .form {
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            padding-top: 90px;
+        }
+        .card {
+            box-shadow: 1px 1px 5px #ccc;
+            background-color: #ACBEA3;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        .card-top {
+            text-align: center;
+            font-family: lastica;
+        }
+        .card-group {
+            font-family: Oswald;
+            margin-bottom: 10px;
+        }
+        .card-group > label {
+            width: 100%;
+            display: block;
+        }
+        .card-group > input {
+            border-radius: 5px;
+            width: 100%;
+            height: 30px;
+        }
+        .btn {
+            background-image: linear-gradient(to right, #ff4242, #8F0000);
+            font-family: lastica;
+            font-size: 25px;
+        }
+        .btn-card > input {
+            height: 50px;
+            border-radius: 30px;
+            box-shadow: 1px 5px 5px black;
+            color: white;
+        }
+        .btn:hover {
+            background-image: linear-gradient(to right, #ff4242, #4f0505);
+        }
+        .redondo{
+        background-color: #000;
+        color: #FFF;
+        border-radius: 30%;
+        margin-bottom: 20px;
+        width: 70%;
+        box-shadow: 1px 5px 5px #ccc;
+        }

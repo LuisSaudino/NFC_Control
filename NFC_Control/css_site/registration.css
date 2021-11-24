@@ -1,0 +1,66 @@
+html::-webkit-scrollbar{
+    width: 12px;
+    border: 2px solid #212429;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #212429;
+    border-radius: 10px;
+}
+.conteudo {
+    margin-top: 70px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6b6b6a;
+    font-size: 14px;
+    text-align: center;
+}
+.form {
+    margin-bottom: 10px;
+}
+.imageContainer{
+    display: flex;
+    border: 5px solid #ccc;
+    background-color: #eee;
+    justify-content: center;
+    width: 70%;
+}
+.userPhoto{
+    width: 50%;
+    height: 50%;
+}
+.navbar {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+}
+
+.navbar a {
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.login {
+    margin: 0px 10px;
+}
+
+.login label {
+    margin-right: 20px;
+}
+
+.navbar a.active {
+    color: #Ff4242;
+}
+
+.navbar a:hover {
+    color: #c24d5a;
+}
